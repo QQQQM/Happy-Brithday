@@ -1,1 +1,1 @@
-# Happy-Brithday is created for my darling
+# Happy-Brithday is a website created for my darling
