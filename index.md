@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [新的网址](https://qqqqm.github.io/hello.html).
+For more details see [新的网址](https://qqqqm.github.io/Happy-Brithday/hello.html).
 
 ### Jekyll Themes
 
