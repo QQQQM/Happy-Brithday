@@ -2,24 +2,21 @@ body{
     background-color:white;
     margin-left: 20%;
     margin-right: 20%;
-    border: 10px dotted gray;
+    border: 0px dotted gray;
     padding: 10px 10px 10px 10px;
     font-size: large;
     color: black;
+    cursor: url("../images/图标.ico"),auto;
+    background: url("../images/76255181_p0.jpg");
 }
 
-#auto{
-    font-size: large;
-    color: black;
-}
 
 #contentToWrite{
     font-size: large;
     color: rebeccapurple;
     padding: 300px;
+    cursor: url("../images/图标.ico"),auto;
 }
-#hhh{
-    color: deepskyblue;
-}
+
 
 
