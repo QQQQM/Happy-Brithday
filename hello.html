@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>小阔耐生日快乐呀！</title>
-    <style type="text/css" >
-        body{
-            background-color: #FFFFFF;
-            margin-left: 20%;
-            margin-right: 20%;
-            border: 10px dotted gray;
-            padding: 10px 10px 10px 10px;
-            font-family: sans-serif;
-        }
-    </style>
+    <link type="text/css" href="css/general.css"  rel="stylesheet">
+    <link rel="shortcut icon" href="./images/图标.ico" />
 </head>
 <p>
     hello!
 </p>
 <body>
     <h1>啦啦啦</h1>
-    <img src="20750360_p0.jpg">
-    <p>看到这里你<em>是不是</em>>想跳一跳<a href="jump1.html">阔耐</a> </p>>
+    <p >看到这里你是不是想跳一跳<a href="jump1.html" title="这是一个测试用的网站">阔耐</a> </p>
+
+
 
     <h2>lalala2</h2>
-    <p>sdasd</p>
+    <p>sdasd   fhggjh</p>
 
-    <h3>sad</h3>
-    <p>asdasdwfver</p>
+    <div id="text">
+
+    </div>
+
 
 </body>
+<div id="auto">
+<script id="auto" >
+    let divTyping = document.getElementById('text')
+    let i = 0,
+        timer = 0,
+        str = '用JS实现动态打字效果\nsadjhnwqekjqwnekljqw\njhgwqheg'
+
+    function typing () {
+        if (i <= str.length) {
+            divTyping.innerHTML = str.slice(0, i++) + '_'
+            timer = setTimeout('typing()', 200)
+        }
+        else {
+            divTyping.innerHTML = str//结束打字,移除 _ 光标
+            clearTimeout(timer)
+        }
+    }
+
+    typing()
+</script>
+</div>
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
-<canvas id="canvas" width="1024" height="600"></canvas>
+<canvas id="canvas" width="1024" height="600" ></canvas>
 
 </html>
