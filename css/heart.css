@@ -1,8 +1,11 @@
 body{
+    background: url("../images/爱心.png");
     cursor: url("../images/mouse.ico"),auto;
 }
 
 
 .shakeimage{
-    padding-left: 200px;
+    padding-left: 215px;
+    padding-top: 36px;
+    cursor: url("../images/mouse.ico"),auto;
 }
