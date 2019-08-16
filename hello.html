@@ -3,36 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>小阔耐生日快乐呀！</title>
-    <link type="text/css" href="css/general.css"  rel="stylesheet">
-    <link rel="shortcut icon" href="./images/图标.ico" />
+    <audio src="./music/友人B_-_生日快乐-钢琴版.mp3" id="aud" autoplay = autoplay  loop="loop"></audio>   <!-- 这里是设置播放器-->
+    </div><img src="./images/灰色爱心.png" id="music" onmouseover="omo();" onmouseout="oml()" onclick="lighting();writeContent(true);"/>         <!-- 这里是这是播放器的大爱心-->
+    <link type="text/css" href="css/general.css"  rel="stylesheet">            <!-- 这里是引入css布局-->
+    <link rel="shortcut icon" href="./images/mouse.ico" />                    <!-- 这里是这是鼠标的样式为小爱心-->
+
+    <script type="text/javascript" src="./js/text.js"></script>
+
 </head>
-<p>
-    hello!
-</p>
+
 <body>
-    <h1>啦啦啦</h1>
-    <p id="demo" >看到这里你是不是想跳一跳<a href="heart_jump.html" title="这是一个测试用的网站">阔耐</a> </p>
-
-    <script>window.alert("what are you doing?")</script>
-
-    <button onclick="myFunction()">   点我！ </button>
-    <div id="text">
+    <h1 id="myContent" onclick="myFunction()"></h1>
+    <div id="contentToWrite" style="display:none;">
+        Happy  Birthday ヾ(@゜∇゜@)ノ<br><br>生日快乐呀～<br><br>小阔耐～<br><br>猜猜入口在哪里呀～<br>：）
     </div>
 
     <script src="js/myscript.js" ></script>
-
 </body>
 
-
-<div id="auto">
-<script id="auto" >
-    let divTyping = document.getElementById('text')
-    let i = 0,
-        timer = 0,
-        str = '用JS实现动态打字效果'
-    typing()
+<!--
+<script>
+    var i = 0,timer = 0,str = 'HAPPY BIRTHDAY ヾ(@゜∇゜@)ノ';
+    typing();
 </script>
-</div>
+-->
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 <canvas id="canvas" width="1024" height="600" ></canvas>

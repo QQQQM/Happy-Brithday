@@ -7,20 +7,13 @@
     <link rel="shortcut icon" href="./images/图标.ico" />
 </head>
 <body>
-<style>.shakeimage{position:relative; left:100px; top:120px;}</style>
-<div class="shakeimage">
-    <a href="hello.html"><img src="images/爱心.png" title="看到你就会小鹿乱撞哦～点我点我！"  width="320" height="320" class="shakeimage" onMouseover="shake(this,'onmouseout')" ></a>
-</div>
-<script language="JavaScript1.2">
-    var typ=["marginTop","marginLeft"],rangeN=100,timeout=20;
-    function shake(o,end){
-        var range=Math.floor(Math.random()*rangeN);
-        var typN=Math.floor(Math.random()*typ.length);
-        o["style"][typ[typN]]=""+range+"px";
-        var shakeTimer=setTimeout(function(){shake(o,end)},timeout);
-        o[end]=function(){clearTimeout(shakeTimer)};
-    }
-</script>
+
+    <div class="shake">
+       <a href="hello.html"><img src="images/爱心.png" class="heart" title="muamuamua~"  onMouseover="shake(this,'onmouseout')" ></a>
+    </div>
+
+    <script src="js/myscript.js" ></script>
+
 </body>
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>

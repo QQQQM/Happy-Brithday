@@ -1,11 +1,17 @@
 body{
-    background: url("../images/爱心.png");
+    /*background: url("../images/爱心.png");*/
     cursor: url("../images/mouse.ico"),auto;
+}
+h1{
+    padding-left: 80%;
 }
 
 
-.shakeimage{
-    padding-left: 215px;
-    padding-top: 36px;
+.shake{
+    padding-left: 40%;
+    padding-top: 15%;
+    cursor: url("../images/mouse.ico"),auto;
+}
+.heart{
     cursor: url("../images/mouse.ico"),auto;
 }
