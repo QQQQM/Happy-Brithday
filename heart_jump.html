@@ -7,15 +7,23 @@
     <link rel="shortcut icon" href="./images/图标.ico" />
 </head>
 <body>
-
+    <div id="word"></div>
     <div class="shake">
-       <a href="hello.html"><img src="images/爱心.png" class="heart" title="muamuamua~"  onMouseover="shake(this,'onmouseout')" ></a>
+       <a href="hello.html"><img src="images/爱心.png" class="heart" title="muamuamua~"  onMouseover="shake(this,'onmouseout');showword();" ></a>
     </div>
 
     <script src="js/myscript.js" ></script>
+    <script>
+        function showword() {
+            document.getElementById("word").innerHTML="你靠近的时候，我的心会像这样 ^_^ ..."
+        }
+    </script>
 
 </body>
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 <canvas id="canvas" width="1024" height="600" ></canvas>
+
 </html>
+
+

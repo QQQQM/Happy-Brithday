@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>小阔耐生日快乐呀！</title>
+    <img src="./images/灰色爱心.png"  id="bulb" onclick="writeContent(true);lighting_general()"/>         <!-- 这里是这是播放器的大爱心-->
+
+    <link type="text/css" href="css/first.css"  rel="stylesheet">            <!-- 这里是引入css布局-->
+    <script type="text/javascript" src="./js/text.js"></script>
+    <link rel="shortcut icon" href="./images/omo.png" />
+</head>
+
+<body>
+
+<h1 id="myContent" onclick="function1()"></h1>
+
+<div id="contentToWrite" style="display:none;">Happy  Birthday ヾ(@゜∇゜@)ノ<br><br>生日快乐呀～<br><br>小阔耐～<br><br>猜猜入口在哪里呀～<br>：）</div>
+
+<script src="js/myscript.js" ></script>
+<script>
+    function function1() {
+        document.getElementById("myContent").innerHTML = "<a href=\"heart_jump.html\"  title=\"点我撒！！点我撒！！\" ><img id=\"img\" src=\"./images/20750360_p0.jpg\"></a>";
+    }
+</script>
+
+</body>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+<canvas id="canvas" width="1024" height="600" ></canvas>
+
+
+</html>

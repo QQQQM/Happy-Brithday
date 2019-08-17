@@ -9,9 +9,16 @@ h1{
 
 .shake{
     padding-left: 40%;
-    padding-top: 15%;
+    padding-top: 5%;
     cursor: url("../images/mouse.ico"),auto;
 }
 .heart{
     cursor: url("../images/mouse.ico"),auto;
+}
+
+#word{
+    padding-left: 30%;
+    padding-top: 15%;
+    font-size: large;
+
 }

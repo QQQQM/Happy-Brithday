@@ -4,34 +4,32 @@
     <meta charset="UTF-8">
     <title>小阔耐生日快乐呀！</title>
     <audio src="./music/友人B_-_生日快乐-钢琴版.mp3" id="aud" autoplay = autoplay  loop="loop"></audio>   <!-- 这里是设置播放器-->
-    </div><img src="./images/灰色爱心.png" id="music" onmouseover="omo();" onmouseout="oml()" onclick="lighting();writeContent(true);"/>         <!-- 这里是这是播放器的大爱心-->
+    <img src="./images/灰色爱心.png" id="music" onmouseover="omo();" onmouseout="oml()" onclick="lighting();writeContent(true);"/>         <!-- 这里是这是播放器的大爱心-->
+
     <link type="text/css" href="css/general.css"  rel="stylesheet">            <!-- 这里是引入css布局-->
     <script type="text/javascript" src="./js/text.js"></script>
     <link rel="shortcut icon" href="./images/omo.png" />
 </head>
 
 <body>
-    <div id="loading"></div>
+
     <h1 id="myContent" onclick="myFunction()"></h1>
+
     <div id="contentToWrite" style="display:none;">
         Happy  Birthday ヾ(@゜∇゜@)ノ<br><br>生日快乐呀～<br><br>小阔耐～<br><br>猜猜入口在哪里呀～<br>：）
     </div>
 
     <script src="js/myscript.js" ></script>
-</body>
+    <script>
+        function myFunction() {
+            document.getElementById("myContent").innerHTML = "<a href=\"1.html\"  target='_blank' title=\"点我撒！！点我撒！！\" >哇！<br><br>厉害啦！</a>";
+        }
+    </script>
 
-<!--
-<script>
-    var i = 0,timer = 0,str = 'HAPPY BIRTHDAY ヾ(@゜∇゜@)ノ';
-    typing();
-</script>
--->
+</body>
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 <canvas id="canvas" width="1024" height="600" ></canvas>
 
-<script type="text/javascript">
-    $("#loading").fadeOut(3000)
-</script>
 
 </html>

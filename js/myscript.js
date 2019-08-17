@@ -1,6 +1,7 @@
 var flag = 0;
-function myFunction() {
-    document.getElementById("myContent").innerHTML = "<a href=\"heart_jump.html\" title=\"点我撒！！点我撒！！\" >哇！<br><br>厉害啦！</a>";
+
+function display() {
+    document.getElementById("loading").style.visibility = "hidden";
 }
 
 function omo() {
@@ -25,7 +26,6 @@ function oml() {
 
 function lighting() {
     flag = 1;
-
     var aud = document.getElementById("aud");
     var img = document.getElementById("music");
     aud.play();
@@ -44,7 +44,12 @@ function lighting() {
     aud.addEventListener("pause", function (e) {
         img.src="./images/灰色爱心.png";
     }, false);
+}
 
+
+
+function lighting_general(){
+    document.getElementById("bulb").src="./images/爱心.png";
 }
 
 
