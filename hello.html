@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="loading"></div>
     <h1 id="myContent" onclick="myFunction()"></h1>
     <div id="contentToWrite" style="display:none;">
         Happy  Birthday ヾ(@゜∇゜@)ノ<br><br>生日快乐呀～<br><br>小阔耐～<br><br>猜猜入口在哪里呀～<br>：）
@@ -28,5 +29,9 @@
 
 <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 <canvas id="canvas" width="1024" height="600" ></canvas>
+
+<script type="text/javascript">
+    $("#loading").fadeOut(3000)
+</script>
 
 </html>

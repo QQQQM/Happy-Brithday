@@ -47,3 +47,7 @@ a:active{
 a{
   text-decoration: none;
 }
+
+#loading{z-index:1;padding:5px 0 5px 29px;
+    background:url(images/loadingwy.gif) no-repeat 10px top;left:0;top:0;width:90px;
+    position:fixed; height:21px}
