@@ -19,6 +19,11 @@ audio{
     margin-right: 0%;
 }
 
+#road{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 #contentToWrite{
     font-size: large;
     color: rebeccapurple;

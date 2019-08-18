@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>小阔耐生日快乐呀！</title>
-    <img src="./images/饭.png"  height="600" width="600" id="meal" onclick="writeContent(true);lighting_meal1()"/>         <!-- 这里是这是播放器的大爱心-->
+    <img src="./images/饭.png"  id="meal" onclick="writeContent(true);lighting_meal1()"/>         <!-- 这里是这是播放器的大爱心-->
 
     <link type="text/css" href="css/first.css"  rel="stylesheet">            <!-- 这里是引入css布局-->
     <script type="text/javascript" src="./js/text.js"></script>
@@ -21,7 +21,7 @@
 <script>
     var flag_meal=0;
     function function1() {
-        document.getElementById("myContent").innerHTML = "<a href=\"heart_jump.html\"  title=\"点我撒！！点我撒！！\" ><img id=\"img\"  height=\"320\" width=\"500\" src=\"./images/纸飞机.png\">点我起飞咯～</a>";
+        document.getElementById("myContent").innerHTML = "<a href=\"heart_jump.html\"  title=\"点我撒！！点我撒！！\" ><img id=\"img\" src=\"./images/蛋.png\"></a>";
     }
     function lighting_meal1(){
         if(flag_meal == 0) {
